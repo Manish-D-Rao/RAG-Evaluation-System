@@ -1,0 +1,46 @@
+[
+  {
+    "experiment": "experiment_v1_k3",
+    "retriever_k": 3,
+    "number_of_test_cases": 25,
+    "metrics": {
+      "answer_relevancy": 0.972919191919192,
+      "faithfulness": 0.9896969696969697,
+      "context_relevancy": 0.926923076923077,
+      "correctness": 0.632
+    }
+  },
+  {
+    "experiment": "experiment_v2_k2",
+    "retriever_k": 2,
+    "number_of_test_cases": 25,
+    "metrics": {
+      "answer_relevancy": 0.9866666666666667,
+      "faithfulness": 0.9866666666666667,
+      "context_relevancy": 0.9146666666666666,
+      "correctness": 0.56
+    }
+  },
+  {
+    "experiment": "experiment_v3_k4",
+    "retriever_k": 4,
+    "number_of_test_cases": 25,
+    "metrics": {
+      "answer_relevancy": 0.9533333333333334,
+      "faithfulness": 0.9822222222222222,
+      "context_relevancy": 0.9026666666666666,
+      "correctness": 0.632
+    }
+  },
+  {
+    "experiment": "experiment_v4_k4",
+    "retriever_k": 4,
+    "number_of_test_cases": 25,
+    "metrics": {
+      "answer_relevancy": 0.97,
+      "faithfulness": 0.992,
+      "context_relevancy": 0.98,
+      "correctness": 0.636
+    }
+  }
+]

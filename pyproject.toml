@@ -1,0 +1,26 @@
+[project]
+name = "rag-evaluation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Manish D Rao", email = "manishdrao1411@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "deepeval>=4.3.4",
+    "dotenv>=0.9.9",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.8.5",
+    "pydantic>=2.14.4",
+    "pymupdf>=2.1",
+]
+
+[project.scripts]
+rag-evaluation-system = "rag_evaluation_system:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
